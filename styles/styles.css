@@ -1,0 +1,37 @@
+video#bgVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.viewport-header {
+	position: relative;
+	color: white;
+	top:10%;
+	left: 7%;
+}
+.viewport-header nav a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.viewport-header nav a:hover{
+
+	cursor: default;
+	color: 	#2babc1;
+	
+}
+ a.email {
+ 	color:white;
+	position: relative;
+	top:300px;
+}
+
+ a.email:hover{
+	cursor: default;
+	color: 	#2babc1;
+}

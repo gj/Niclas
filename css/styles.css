@@ -78,7 +78,7 @@ iframe#bgVideo {
  a.email {
  	color:white;
 	position: relative;
-	margin-top: 90%;
+	top: 300px;
 }
 
  a.email:hover{
@@ -106,7 +106,7 @@ iframe#bgVideo {
  a.emailblack {
  	color:black;
 	position: relative;
-	margin-top: 90%;
+	top: 300px;
 }
 
  a.emailblack:hover{
@@ -143,10 +143,20 @@ nav.visible{
         left:1%;
 
     }
+    a.email {
+		display: none;
+	}
+	a.emailblack {
+		display: none;
+	}
 }
+
 @media only screen and (max-width: 1130px) {
 
 		.brand a h1{
+			font-size: 30px;
+		}
+		.brandblack a h1{
 			font-size: 30px;
 		}
 }
@@ -166,31 +176,49 @@ nav.visible{
 		}
 
 }
-@media only screen and (max-height: 497px) {
+@media only screen and (max-height: 532px) {
 	a.email {
-		margin-top: 70%;
+		top: 250px;
 	}
 	a.emailblack {
-		margin-top: 70%;
+		top: 250px;
 	}
 
 }
 
-@media only screen and (max-height: 497px) {
+@media only screen and (max-height: 476px) {
 	a.email {
-		margin-top: 60%;
+		top: 200px;
 	}
 	a.emailblack {
-		margin-top: 60%;
+		top: 200px;
 	}
 	
 }
-@media only screen and (max-height: 397px) {
+@media only screen and (max-height: 419px) {
 	a.email {
-		margin-top: 40%;
+		top: 150px;
 	}
 	a.emailblack {
-		margin-top: 40%;
+		top: 150px;
+	}
+
+}
+@media only screen and (max-height: 366px) {
+	a.email {
+		top: 100px;
+	}
+	a.emailblack {
+		top: 100px;
+	}
+
+}
+@media only screen and (max-height: 308px) {
+	a.email {
+		top: 50px;
+	}
+	a.emailblack {
+		top: 50px;
 	}
 
 }

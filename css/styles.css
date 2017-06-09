@@ -16,11 +16,17 @@ iframe#bgVideo {
   z-index: -100;
 }
 
-.brand {
+.sideheader{
 	position: relative;
 	color: white;
 	top:10%;
 	left: 7%;
+	width:35%;
+}
+.brand {
+	position: relative;
+	color: white;
+	
 }
 .brand a:hover{
 	color: #2babc1;
@@ -38,8 +44,7 @@ iframe#bgVideo {
 .brandblack {
 	position: relative;
 	color: black;
-	top:10%;
-	left: 7%;
+	
 	
 }
 .brandblack a{
@@ -55,8 +60,7 @@ iframe#bgVideo {
 #navbar {
 	position: relative;
 	color: white;
-	top:10%;
-	left: 7%;
+	
 	
 }
 #navbar nav a{
@@ -85,8 +89,7 @@ iframe#bgVideo {
 #navbarBlack {
 	position: relative;
 	color: black;
-	top:10%;
-	left: 7%;
+	
 	
 }
 #navbarBlack nav a{
@@ -113,17 +116,20 @@ iframe#bgVideo {
 div.toggleMenu{
 	display: none;
 }
-nav.visable{
+nav.visible{
 	display: block;
 }
 /*// Media Query //*/
 
 @media only screen and (max-width: 768px) {
+	div.sideheader{
+		width:60%;
+	}
 	div.toggleMenu{
 	display: block;
 	left:1%;
     }
-    nav.visable{
+    nav.visible{
 	display: none;
     }
     body div.brand{
@@ -136,5 +142,6 @@ nav.visable{
         left:1%;
 
     }
+
 
 }

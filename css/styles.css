@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+body{
+font-family: 'Raleway', sans-serif;
+}
+
+iframe#bgVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.brand {
+	position: relative;
+	color: white;
+	top:10%;
+	left: 7%;
+}
+.brand a:hover{
+	color: #2babc1;
+	text-decoration: none;
+}
+.brand a h1{
+	color: white;
+	text-decoration: none;
+}
+
+.brand a h1:hover{
+	color: #2babc1;
+	text-decoration: none;
+}
+.brandblack {
+	position: relative;
+	color: black;
+	top:10%;
+	left: 7%;
+	
+}
+.brandblack a{
+	color: black;
+	text-decoration: none;
+}
+.brandblack a:hover{
+	cursor: default;
+	color: 	#2babc1;
+	text-decoration: none;
+}
+
+#navbar {
+	position: relative;
+	color: white;
+	top:10%;
+	left: 7%;
+	
+}
+#navbar nav a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+#navbar nav a:hover{
+
+	cursor: default;
+	color: 	#2babc1;
+	
+}
+ a.email {
+ 	color:white;
+	position: relative;
+	top:300px;
+}
+
+ a.email:hover{
+	cursor: default;
+	color: 	#2babc1;
+}
+
+
+#navbarBlack {
+	position: relative;
+	color: black;
+	top:10%;
+	left: 7%;
+	
+}
+#navbarBlack nav a{
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+#navbarBlack nav a:hover{
+	cursor: default;
+	color: 	#2babc1;
+	
+}
+ a.emailblack {
+ 	color:black;
+	position: relative;
+	top:300px;
+}
+
+ a.emailblack:hover{
+	cursor: default;
+	color: 	#2babc1;
+}
+
+div.toggleMenu{
+	display: none;
+}
+nav.visable{
+	display: block;
+}
+/*// Media Query //*/
+
+@media only screen and (max-width: 768px) {
+	div.toggleMenu{
+	display: block;
+	left:1%;
+    }
+    nav.visable{
+	display: none;
+    }
+    body div.brand{
+    	top:0;   	
+        left:1%;
+
+    }
+    body div.brandblack{
+    	top:0;   	
+        left:1%;
+
+    }
+
+}

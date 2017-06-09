@@ -144,6 +144,13 @@ nav.visible{
 
     }
 }
+@media only screen and (max-width: 1130px) {
+
+		.brand a h1{
+			font-size: 30px;
+		}
+}
+
 @media only screen and (max-width: 471px) {
 
 		div.sideheader{
@@ -151,13 +158,6 @@ nav.visible{
 		}
 }
 
-@media only screen and (max-width: 330px) {
-
-		.brand a h1{
-			font-size: 30px;
-		}
-
-}
 
 @media only screen and (max-width: 245px) {
 

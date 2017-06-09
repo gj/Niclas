@@ -32,9 +32,15 @@ iframe#bgVideo {
 	color: #2babc1;
 	text-decoration: none;
 }
+
 .brand a h1{
 	color: white;
 	text-decoration: none;
+	padding-bottom: 10%;
+}
+.brand p{
+	padding-bottom: 3%;
+	
 }
 
 .brand a h1:hover{
@@ -51,6 +57,16 @@ iframe#bgVideo {
 .brandblack a{
 	color: black;
 	text-decoration: none;
+
+}
+.brandblack a h1{
+	color: black;
+	text-decoration: none;
+	padding-bottom: 10%;
+}
+.brandblack p{
+	padding-bottom: 3%;
+	
 }
 .brandblack a:hover{
 	cursor: default;

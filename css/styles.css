@@ -21,7 +21,7 @@ iframe#bgVideo {
 	color: white;
 	top:10%;
 	left: 7%;
-	width:35%;
+	
 }
 .brand {
 	position: relative;
@@ -44,6 +44,7 @@ iframe#bgVideo {
 .brandblack {
 	position: relative;
 	color: black;
+	
 	
 	
 }
@@ -142,6 +143,26 @@ nav.visible{
         left:1%;
 
     }
+}
+@media only screen and (max-width: 471px) {
 
+		div.sideheader{
+			width: 100%;
+		}
+}
+
+@media only screen and (max-width: 330px) {
+
+		.brand a h1{
+			font-size: 30px;
+		}
+
+}
+
+@media only screen and (max-width: 245px) {
+
+		.brand a h1{
+			font-size: 20px;
+		}
 
 }

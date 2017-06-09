@@ -78,7 +78,7 @@ iframe#bgVideo {
  a.email {
  	color:white;
 	position: relative;
-	top:300px;
+	margin-top: 90%;
 }
 
  a.email:hover{
@@ -106,7 +106,7 @@ iframe#bgVideo {
  a.emailblack {
  	color:black;
 	position: relative;
-	top:300px;
+	margin-top: 90%;
 }
 
  a.emailblack:hover{
@@ -164,5 +164,33 @@ nav.visible{
 		.brand a h1{
 			font-size: 20px;
 		}
+
+}
+@media only screen and (max-height: 497px) {
+	a.email {
+		margin-top: 70%;
+	}
+	a.emailblack {
+		margin-top: 70%;
+	}
+
+}
+
+@media only screen and (max-height: 497px) {
+	a.email {
+		margin-top: 60%;
+	}
+	a.emailblack {
+		margin-top: 60%;
+	}
+	
+}
+@media only screen and (max-height: 397px) {
+	a.email {
+		margin-top: 40%;
+	}
+	a.emailblack {
+		margin-top: 40%;
+	}
 
 }

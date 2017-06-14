@@ -25,24 +25,35 @@
 
 body{
 font-family: plain;
+letter-spacing: 0.05em;
+background-attachment: fixed;
+background-size: cover;
 }
 
 /*Background*/ 
 
-iframe#bgVideo {
-  object-fit: cover;	
+div#bgVideo {
+  overflow: hidden;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
   position: fixed;
-  top: 0;
-  left: 0;
   z-index: -100;
 }
 
+iframe#vimeo{
+	position: relative;
+	right: 10%;
+}
 
 
 /*Logo and Brand*/
-
-.sideheader{
+.sideheader-wraper{
 	position: relative;
+	margin: auto; 
+}
+.sideheader{
+	position: fixed;
 	top:30px;
 	font-size: 12px;
 }
@@ -64,8 +75,7 @@ iframe#bgVideo {
 }
 
 .brand a h1{
-	font-family: plain-Bold;
-	letter-spacing: 0.05em;
+	font-weight: bold;
 	color: white;
 	text-decoration: none;
 	padding-bottom: 30px;
@@ -144,7 +154,7 @@ iframe#bgVideo {
  a.email {
  	color:white;
 	position: relative;
-	top: 280px;
+	top: 400px;
 }
 
  a.email:hover{
@@ -177,7 +187,7 @@ iframe#bgVideo {
  a.emailblack {
  	color:black;
 	position: relative;
-	top: 280px;
+	top: 400px;
 }
 
  a.emailblack:hover{
@@ -254,52 +264,52 @@ nav.visible{
 
 }
 
-@media only screen and (max-height: 532px) {
+@media only screen and (max-height: 618px) {
 	a.email {
-		top: 280px;
+		top: 380px;
 	}
 	a.emailblack {
-		top: 280px;
+		top: 380px;
 	}
 
 }
 
-@media only screen and (max-height: 519px) {
+@media only screen and (max-height: 596px) {
 	a.email {
-		top: 250px;
+		top: 330px;
 	}
 	a.emailblack {
-		top: 250px;
+		top: 330px;
 	}
 	
 }
 
-@media only screen and (max-height: 491px) {
+@media only screen and (max-height: 549px) {
 	a.email {
-		top: 220px;
+		top: 280px;
 	}
 	a.emailblack {
-		top: 220px;
+		top: 280px;
 	}
 
 }
 
-@media only screen and (max-height: 460px) {
+@media only screen and (max-height: 499px) {
 	a.email {
-		top: 190px;
+		top: 230px;
 	}
 	a.emailblack {
-		top: 190px;
+		top: 230px;
 	}
 
 }
 
-@media only screen and (max-height: 430px) {
+@media only screen and (max-height: 448px) {
 	a.email {
-		top: 50px;
+		top: 0px;
 	}
 	a.emailblack {
-		top: 50px;
+		top: 0px;
 	}
 
 }

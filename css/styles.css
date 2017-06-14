@@ -50,7 +50,8 @@ iframe#vimeo{
 /*Logo and Brand*/
 .sideheader-wraper{
 	position: relative;
-	margin: auto; 
+	margin: auto;
+	z-index: 200; 
 }
 .sideheader{
 	position: fixed;
@@ -224,8 +225,15 @@ nav.visible{
 
 
 @media only screen and (max-width: 768px) {
+	div.page {
+	position: relative;
+	font-size: 12px;
+	padding-top: 35%;
+	width: 100%;
+	left: 0%;
+}
 	div.sideheader{
-		width:60%;
+		width:100%;
 	}
 	div.toggleMenu{
 	display: block;

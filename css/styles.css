@@ -71,7 +71,7 @@ iframe#vimeo{
 }
 
 .brand a:hover{
-	color: #2babc1;
+	color: gray;
 	text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ iframe#vimeo{
 
 .brand a h1:hover{
 	cursor: default;
-	color: 	#2babc1;
+	color: 	gray;
 	text-decoration: none;
 }
 
@@ -109,7 +109,7 @@ iframe#vimeo{
 
 .brandblack a:hover{
 	cursor: default;
-	color: 	#2babc1;
+	color: 	gray;
 	text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ iframe#vimeo{
 
 .brandblack a h1:hover{
 	cursor: default;
-	color: 	#2babc1;
+	color: 	gray;
 	text-decoration: none;
 }
 
@@ -148,19 +148,19 @@ iframe#vimeo{
 #navbar nav a:hover{
 
 	cursor: default;
-	color: 	#2babc1;
+	color: 	gray;
 	
 }
 
  a.email {
  	color:white;
 	position: relative;
-	top: 400px;
+	top: 450px;
 }
 
  a.email:hover{
 	cursor: default;
-	
+	color: gray;
 }
 
 
@@ -170,7 +170,7 @@ iframe#vimeo{
 }
 
 #navbarBlack nav a.active{
-	color: 	#2babc1;
+	color: 	gray;
 }
 
 #navbarBlack nav a{
@@ -181,19 +181,19 @@ iframe#vimeo{
 
 #navbarBlack nav a:hover{
 	cursor: default;
-	color: 	#2babc1;
+	color: 	gray;
 	
 }
 
  a.emailblack {
  	color:black;
 	position: relative;
-	top: 400px;
+	top: 475px;
 }
 
  a.emailblack:hover{
 	cursor: default;
-	color: 	#2babc1;
+	color: 	gray;
 }
 
 div.toggleMenu{
@@ -228,12 +228,17 @@ nav.visible{
 	div.page {
 	position: relative;
 	font-size: 12px;
-	padding-top: 35%;
+	padding-top: 0%;
 	width: 100%;
 	left: 0%;
 }
+   div.sideheader-wraper{
+   		width:100%;
+	   margin: 0;
+}
 	div.sideheader{
 		width:100%;
+		position: relative;
 	}
 	div.toggleMenu{
 	display: block;
@@ -249,9 +254,7 @@ nav.visible{
 	a.emailblack {
 		display: none;
 	}
-	.page{
-		left: 0%;
-	}
+	
 	
 }
 

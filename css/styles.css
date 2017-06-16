@@ -43,14 +43,14 @@ div#bgVideo {
 
 iframe#vimeo{
 	position: relative;
-	right: 10%;
+	right: 15%;
 }
 
 
 /*Logo and Brand*/
+
 .sideheader-wraper{
 	position: relative;
-	margin: auto;
 	z-index: 200; 
 }
 .sideheader{
@@ -155,7 +155,7 @@ iframe#vimeo{
  a.email {
  	color:white;
 	position: relative;
-	top: 450px;
+	top: 420px;
 }
 
  a.email:hover{
@@ -188,7 +188,7 @@ iframe#vimeo{
  a.emailblack {
  	color:black;
 	position: relative;
-	top: 475px;
+	top: 420px;
 }
 
  a.emailblack:hover{
@@ -223,7 +223,6 @@ nav.visible{
 /*// Media Queries //*/
 
 
-
 @media only screen and (max-width: 768px) {
 	div.page {
 	position: relative;
@@ -256,15 +255,9 @@ nav.visible{
 	}
 	
 	
+	
 }
 
-
-@media only screen and (max-width: 471px) {
-
-		div.sideheader{
-			width: 100%;
-		}
-}
 
 
 @media only screen and (max-width: 245px) {

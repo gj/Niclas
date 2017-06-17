@@ -22,29 +22,25 @@
 
 /*General Styles*/
 
-
 body{
 font-family: plain;
 letter-spacing: 0.05em;
-background-attachment: fixed;
-background-size: cover;
 }
 
 /*Background*/ 
-
-div#bgVideo {
-  overflow: hidden;
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  z-index: -100;
-}
-
-iframe#vimeo{
-	position: relative;
-	right: 15%;
-}
+#vid {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+        overflow: hidden;
+      }
 
 
 /*Logo and Brand*/
@@ -114,8 +110,7 @@ iframe#vimeo{
 }
 
 .brandblack a h1{
-	font-family: plain-Bold;
-	letter-spacing: 0.05em;
+	font-weight: bold;
 	color: black;
 	text-decoration: none;
 	padding-bottom: 30px;
@@ -264,6 +259,9 @@ nav.visible{
 
 		.brand a h1{
 			font-size: 15px;
+		}
+		.brand p{
+			font-size: 8px;
 		}
 
 }

@@ -13,10 +13,17 @@
 
 /*General Styles*/
 
-body{
+html, body{
+width: 100%;
+height: 100%;
 font-family: plain;
 letter-spacing: 0.05em;
 }
+
+.ovhidden{
+	overflow: hidden;
+}
+
 
 /*Background*/ 
 #vid {
@@ -203,9 +210,18 @@ nav.visible{
 	width: 100%;
 	padding-bottom: 30px;
 }
+.padtext{
+	position: relative;
+	width: 80%;
+	padding-bottom: 30px;
+}
 .foot{
 	padding-bottom: 100px;
 	color: black;
+}
+.foot:hover{
+	text-decoration: none;
+	color: gray;
 }
 
 iframe{

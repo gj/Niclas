@@ -1,14 +1,5 @@
 /*Fonts*/
 
-@font-face {
-	font-family: 'Plain-Bold';
-	src: url('../fonts/Plain-Bold.eot');
-	src: url('../fonts/Plain-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Plain-Bold.woff') format('woff'),
-		url('../fonts/Plain-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
 
 @font-face {
 	font-family: 'Plain';
@@ -62,7 +53,7 @@ letter-spacing: 0.05em;
 }.
 
 .brand a{
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -208,6 +199,8 @@ nav.visible{
 	left: 10%;
 }
 .pad{
+	position: relative;
+	width: 100%;
 	padding-bottom: 30px;
 }
 .foot{
@@ -215,21 +208,23 @@ nav.visible{
 	color: black;
 }
 
+iframe{
+	position: relative;
+	width: 100%;
+	height: 56%;
+	padding-bottom: 30px;
+}
+.inv{
+	visibility: hidden;
+}
 /*// Media Queries //*/
 
 
 @media only screen and (max-width: 768px) {
 	div.page {
-	position: relative;
-	font-size: 12px;
-	padding-top: 0%;
-	width: 100%;
 	left: 0%;
 }
-   div.sideheader-wraper{
-   		width:100%;
-	   margin: 0;
-}
+  
 	div.sideheader{
 		width:100%;
 		position: relative;

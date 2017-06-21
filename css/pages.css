@@ -86,10 +86,7 @@ a.active {
 	padding-bottom: 5%;
 }
 
-iframe{
-	width: 100%;
-	height:56.25%;
-}
+
 
 img{
 	width: 100%;
@@ -124,7 +121,25 @@ img{
 		margin-left: 0%;
 		top: 0%;
 	}
+	.content-wrapper iframe {
+		width: 100%;
+		height: 56.25%;
+	}
 }
 
+@media only screen and (max-width: 1199px) {
 
+	.content-wrapper iframe{
+		width: 536px;
+		height: 302px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+
+	.content-wrapper iframe{
+		width: 724px;
+		height: 408px;
+	}
+}
 

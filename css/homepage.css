@@ -1,0 +1,98 @@
+
+/*Background*/ 
+
+html, body{
+    overflow: hidden;
+}
+
+#vid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+      }
+
+/*---------------*/
+
+
+/* /// Logo and NavBar /// */
+
+/*Logo*/
+
+.niclas {
+	position: relative;
+	color: white;
+}
+
+.niclas a{
+	color: white;
+	text-decoration: none;
+}
+
+.niclas a:hover{
+	color: gray;
+	text-decoration: none;
+}
+
+.niclas a h1{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	padding-bottom: 7%;
+	font-size: 24px;
+	letter-spacing: 0.15em;
+}
+
+.niclas a h1:hover{
+	cursor: default;
+	color: 	gray;
+	text-decoration: none;
+}
+
+.niclas p{
+	padding-bottom: 8%;	
+}
+
+
+/*Navigation Bar*/
+
+.navbar {
+	position: relative;
+	color: white;
+}
+
+.navbar nav a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+.navbar nav a:hover{
+
+	cursor: default;
+	color: 	gray;
+	
+}
+
+ a.email {
+ 	color: white;
+	position: relative;
+	top: 440px;
+}
+
+ a.email:hover{
+	cursor: default;
+	color: gray;
+}
+
+
+/*------------------------*/
+
+

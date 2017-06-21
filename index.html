@@ -1,26 +1,24 @@
-<html class="ovhidden">
+<html>
 <head>
 	<meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Niclas Gillis</title>
+  <link rel="stylesheet" href="css/homepage.css">
 	<link rel="stylesheet" href="css/styles.css">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="ovhidden">
-
+<body>
 <video id="vid" muted video autobuffer autoplay playsinline loop preload="auto">
 </video>
-
  <div class="container">
-  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 sideheader-wraper">
-   <div class="sideheader">
-    <div class="brand">
+  <div class="sidebar-wraper">
+   <div class="sidebar">
+    <div class="niclas">
      <a href="./index.html"><h1>NICLAS GILLIS</h1></a>  
      <p>WRITER / DIRECTOR</p>
     </div>
-    <div id="navbar">
-     <nav class="visible">
+    <div class="navbar">
+     <nav class="navmenu">
       <a href="./html/nike.html">NIKE</a>
       <a href="./html/hmd.html">HOLD ME DOWN</a>
       <a href="./html/ian.html">A PORTRAIT OF IAN HYLTON</a> 
@@ -28,27 +26,25 @@
      </nav>
     <a class="email" href="mailto:contact@niclasgillis.com?Subject=Hello" target="_top">CONTACT@NICLASGILLIS.COM</a>
   </div>
-  <div class="dropdown toggleMenu">
-    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    &#9776;
-    
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dLabel">
+  <div class="dropdown">
+   <a href="#menu" id="toggle"><span></span></a>
+    <div id="menu">
+     <ul>
         <li><a href="./html/nike.html">NIKE</a></li>
         <li><a href="./html/hmd.html">HOLD ME DOWN</a></li>
         <li><a href="./html/ian.html">A PORTRAIT OF IAN HYLTON</a></li>
         <li><a href="./html/minliu.html">MIN LIU</a></li>
-        <li role="separator" class="divider"></li>
         <li><a href="mailto:CONTACT@NICLASGILLIS.COM?Subject=Hello" target="_top">CONTACT@NICLASGILLIS.COM</a></li>
-    </ul>
+     </ul>
+    </div>
    </div>
   </div>
  </div>
 </div>
 
-
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-   <script src="js/media.js"></script>
+  <script src="js/homepage.js"></script>
+  <script src="js/toggleMenu.js"></script>
 </body>
 </html>

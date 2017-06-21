@@ -5,51 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Niclas Gillis</title>
   <link rel="stylesheet" href="../css/styles.css">
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/pages.css">
 </head>
 <body>
 <div class="container">
- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 sideheader-wraper">
-  <div class="sideheader">
-    <div class="brandblack">
+  <div class="sidebar-wraper">
+   <div class="sidebar">
+    <div class="niclas">
      <a href="../index.html"><h1>NICLAS GILLIS</h1></a>  
      <p>WRITER / DIRECTOR</p>
     </div>
-   <div id="navbarBlack">
-    <nav class="visible">
+    <div class="navbar">
+     <nav class="navmenu">
       <a href="./nike.html">NIKE</a>
       <a href="./hmd.html">HOLD ME DOWN</a>
-      <a href="./ian.html"  class="active">A PORTRAIT OF IAN HYLTON</a>
-      <a href="./minliu.html">MIN LIU</a>
-    </nav>
-   <a class="emailblack" href="mailto:CONTACT@NICLASGILLIS.COM?Subject=Hello" target="_top">CONTACT@NICLASGILLIS.COM</a>
+      <a href="./ian.html" class="active">A PORTRAIT OF IAN HYLTON</a> 
+      <a href="./minliu.html">MIN LIU</a>  
+     </nav>
+    <a class="email" href="mailto:contact@niclasgillis.com?Subject=Hello" target="_top">CONTACT@NICLASGILLIS.COM</a>
   </div>
-  <div class="dropdown toggleMenu">
-    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    &#9776;
-    
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+  <div class="dropdown">
+   <a href="#menu" id="toggle"><span></span></a>
+    <div id="menu">
+     <ul>
         <li><a href="./nike.html">NIKE</a></li>
         <li><a href="./hmd.html">HOLD ME DOWN</a></li>
         <li><a href="./ian.html">A PORTRAIT OF IAN HYLTON</a></li>
         <li><a href="./minliu.html">MIN LIU</a></li>
-        <li role="separator" class="divider"></li>
         <li><a href="mailto:CONTACT@NICLASGILLIS.COM?Subject=Hello" target="_top">CONTACT@NICLASGILLIS.COM</a></li>
-    </ul>
+     </ul>
+    </div>
+   </div>
   </div>
  </div>
-</div>
-<div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 Page">
-  <p class="pad">A Portrait of Ian Hylton</p>
-  <iframe class="pad" src="https://player.vimeo.com/video/99372910
+<div class="content-wrapper">
+  <p class="row">A Portrait of Ian Hylton</p>
+  <iframe class="row" src="https://player.vimeo.com/video/99372910
 ?color=a3a4a4&title=0&byline=0&portrait=0"   frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p class="padtext">Directed, produced, shot and edited by Niclas Gillis.
+<p class="row">Directed, produced, shot and edited by Niclas Gillis.
 </p>
-  <img class="pad" src="../media/Ian Hylton.jpg"  alt="man lighting cigarette">
+  <img class="row" src="../media/Ian Hylton.jpg"  alt="man lighting cigarette">
 </div>
 </div>
-  <script src="../js/jquery-3.2.1.min.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
+<script src="../js/toggleMenu.js"></script>
 </body>
 </html>

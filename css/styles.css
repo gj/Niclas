@@ -48,11 +48,11 @@ p, select, option,iframe {
 /* /// General Styles /// */
 
 html,body{
-width: 100%;
-height: 100%;
-font-family: Plain;
-font-size: 12px;
-letter-spacing: 0.065em;
+  width: 100%;
+  height: 100%;
+  font-family: Plain;
+  font-size: 12px;
+  letter-spacing: 0.065em;
 }
 
 

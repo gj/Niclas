@@ -202,8 +202,7 @@ iframe#hmd {
 	}
 
 	.content-wrapper iframe {
-		width: 90%;
-		height: 56.25%;
+		width: 100%;
 	}
 
 	.row {
@@ -212,7 +211,7 @@ iframe#hmd {
 	}
 
 	img {
-		width: 90%;
+		width: 100%;
 	}
 
 	.content-wrapper p {

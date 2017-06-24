@@ -26,10 +26,20 @@ p, select, option,iframe {
 	font-family: 'Plain';
 	src: url('../fonts/Plain-Regular.eot');
 	src: url('../fonts/Plain-Regular.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Plain-Regular.woff') format('woff'),
-		url('../fonts/Plain-Regular.ttf') format('truetype');
+		   url('../fonts/Plain-Regular.woff') format('woff'),
+		   url('../fonts/Plain-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plain';
+  src: url('../fonts/Plain-Bold.eot');
+  src: url('../fonts/Plain-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Plain-Bold.woff') format('woff'),
+       url('../fonts/Plain-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 /*----------------------*/
@@ -42,32 +52,30 @@ width: 100%;
 height: 100%;
 font-family: Plain;
 font-size: 12px;
-letter-spacing: 0.12em;
+letter-spacing: 0.065em;
 }
 
 
 /*container*/
 
-.container{
+.container {
   width: 100%;
   height: 100%;
   position: relative;
-  
 }
 
 
 /*Side Menu Bar*/
 
-.sidebar-wraper{
-  width:30%;
+.sidebar-wrapper{
 	position: relative;
-	z-index: 200; 
+	z-index: 200;
 }
 
 .sidebar{
 	position: fixed;
-	top:5%;
-	left:5%;
+	top:50px;
+	left:60px;
 }
 
 /*----------------------*/
@@ -178,52 +186,24 @@ li a:focus {
 /* /// Media Queries /// */
 
 
-@media only screen and (max-width: 768px) {
-
-  .container {
-  float: left;
-  display: block;
-  margin:0%;
-}
-.sidebar-wraper{
-  width: 100%;
-}
-  div.sidebar{
-    position: relative;
-    top:20px;
+@media only screen and (max-width: 895px) {
+  div.sidebar {
+    position: absolute;
+    top: 20px;
+    left: 5%;
   }
-  div.dropdown{
+
+  div.dropdown {
     position: relative;
-    left:0;
+    left: 0;
     display: block;
-    }
-    nav.navmenu{
-  display: none;
-    }
-    
-    a.email {
+  }
+
+  nav.navmenu {
     display: none;
   }
-  
-}
 
-
-@media only screen and (max-height: 650px) {
   a.email {
-    top: 380px;
+    display: none;
   }
-  
 }
-@media only screen and (max-height: 585px) {
-  a.email {
-    top: 280px;
-  }
-  
-}
-@media only screen and (max-height: 480px) {
-  a.email {
-    top: 10px;
-  }
-  
-}
-

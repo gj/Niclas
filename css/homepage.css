@@ -1,8 +1,8 @@
-
-/*Background*/ 
+/*Background*/
 
 html, body{
     overflow: hidden;
+    color: white;
 }
 
 #vid {
@@ -28,11 +28,9 @@ html, body{
 
 .niclas {
 	position: relative;
-	color: white;
 }
 
 .niclas a{
-	color: white;
 	text-decoration: none;
 }
 
@@ -43,11 +41,11 @@ html, body{
 
 .niclas a h1{
 	font-weight: bold;
-	color: white;
 	text-decoration: none;
-	padding-bottom: 7%;
+	padding-bottom: 5%;
 	font-size: 24px;
-	letter-spacing: 0.15em;
+	letter-spacing: 0.125em;
+  margin-top: 0px;
 }
 
 .niclas a h1:hover{
@@ -65,12 +63,10 @@ html, body{
 
 .navbar {
 	position: relative;
-	color: white;
 }
 
 .navbar nav a{
 	display: block;
-	color: white;
 	text-decoration: none;
 }
 
@@ -78,13 +74,11 @@ html, body{
 
 	cursor: default;
 	color: 	gray;
-	
 }
 
  a.email {
- 	color: white;
-	position: relative;
-	top: 440px;
+	position: fixed;
+  bottom: 50px;
 }
 
  a.email:hover{

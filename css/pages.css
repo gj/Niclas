@@ -95,15 +95,9 @@ a.active {
 	padding-bottom: 11.6666%;
 }
 
-.first-row{
-	padding-right: 2%;
-	padding-left: 2%;
-	padding-top: 5%;
-	padding-bottom: 6%;
-}
-
 .content-wrapper iframe {
 	width: 650px;
+	height: 369px;
 }
 
 img {
@@ -129,6 +123,7 @@ img {
 
 	.content-wrapper iframe {
 		width: 490px;
+		height: 277px;
 	}
 
 	img {
@@ -168,6 +163,7 @@ img {
 
 	.content-wrapper iframe {
 		width: 90%;
+		height: 459px;
 	}
 
 	.row {
@@ -191,4 +187,39 @@ img {
 		padding-bottom: 0;
 		margin-bottom: 20px;
 	}
+}
+
+/* iPad */
+@media only screen and (max-width: 768px) {
+  .content-wrapper iframe {
+    height: 393px;
+  }
+}
+
+/* Mid-point between iPad and iPhone 6 Plus */
+@media only screen and (max-width: 591px) {
+  .content-wrapper iframe {
+    height: 301px;
+  }
+}
+
+/* iPhone 6 Plus */
+@media only screen and (max-width: 414px) {
+  .content-wrapper iframe {
+    height: 210px;
+  }
+}
+
+/* iPhone 6 */
+@media only screen and (max-width: 375px) {
+  .content-wrapper iframe {
+    height: 189px;
+  }
+}
+
+/* iPhone 5 */
+@media only screen and (max-width: 320px) {
+  .content-wrapper iframe {
+    height: 161px;
+  }
 }

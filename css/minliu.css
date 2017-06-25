@@ -1,0 +1,52 @@
+.content-wrapper iframe#minliu {
+  height: 352px;
+}
+
+/* Breakpoint for mid-size screens */
+@media only screen and (max-width: 1120px) {
+  .content-wrapper iframe#minliu {
+    height: 268px;
+  }
+}
+
+/* Navbar collapses at 895px */
+@media only screen and (max-width: 895px) {
+  .content-wrapper iframe#minliu {
+    height: 435px;
+  }
+}
+
+/* iPad */
+@media only screen and (max-width: 768px) {
+  .content-wrapper iframe#minliu {
+    height: 374px;
+  }
+}
+
+/* Mid-point between iPad and iPhone 6 Plus */
+@media only screen and (max-width: 591px) {
+  .content-wrapper iframe#minliu {
+    height: 290px;
+  }
+}
+
+/* iPhone 6 Plus */
+@media only screen and (max-width: 414px) {
+  .content-wrapper iframe#minliu {
+    height: 206px;
+  }
+}
+
+/* iPhone 6 */
+@media only screen and (max-width: 375px) {
+  .content-wrapper iframe#minliu {
+    height: 188px;
+  }
+}
+
+/* iPhone 5 */
+@media only screen and (max-width: 320px) {
+  .content-wrapper iframe#minliu {
+    height: 161px;
+  }
+}

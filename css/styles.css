@@ -1,4 +1,4 @@
-/* /// Normelize /// */
+/* /// Normalize /// */
 
 body, a, div, html, nav, button, input, form, span, ul, li, textarea, strong,
 p, select, option,iframe {
@@ -47,16 +47,13 @@ p, select, option,iframe {
 
 /* /// General Styles /// */
 
-html,body{
+html, body {
   width: 100%;
   height: 100%;
   font-family: Plain;
   font-size: 12px;
   letter-spacing: 0.065em;
 }
-
-
-/*container*/
 
 .container {
   width: 100%;
@@ -67,7 +64,7 @@ html,body{
 
 /*Side Menu Bar*/
 
-.sidebar-wrapper{
+.sidebar-wrapper {
 	position: relative;
 	z-index: 200;
 }
@@ -167,24 +164,21 @@ ul, li, li a {
   margin: 0;
   padding: 0;
 }
+
 li a {
   padding: 5px;
   color: #888;
   text-decoration: none;
   transition: all .2s;
 }
+
 li a:hover,
 li a:focus {
   background: #888;
   color: #fff;
 }
 
-/*----------------------*/
-
-
-
 /* /// Media Queries /// */
-
 
 @media only screen and (max-width: 895px) {
   div.sidebar {
@@ -203,7 +197,7 @@ li a:focus {
     display: none;
   }
 
-  a.email {
+/*  a.email {
     display: none;
-  }
+  }*/
 }

@@ -100,16 +100,16 @@ a.active {
 }
 
 .content-wrapper iframe {
-	width: 650px;
+	width: 641px;
 	height: 369px;
 }
 
-img {
-  width: 650px;
+.content-wrapper img {
+  width: 641px;
 }
 
 .content-wrapper p {
-  width: 650px;
+  width: 641px;
 }
 
 .content-wrapper .row a:hover {
@@ -125,7 +125,7 @@ img {
 
 @media only screen and (max-width: 1300px) {
 	.content-wrapper {
-		width: 650px;
+		width: 641px;
 	}
 }
 

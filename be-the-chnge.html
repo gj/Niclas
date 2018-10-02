@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
   <head>
-  	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="http://niclasgillis.com/media/homepage.jpg" />
-  	<title>Niclas Gillis</title>
-  	<link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/homepage.css">
+    <meta property="og:image" content="http://niclasgillis.com/media/nike2.jpg" />
+    <title>Niclas Gillis</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pages.css">
   </head>
 
   <body>
-    <video id="vid" muted video autobuffer autoplay playsinline loop preload="auto"></video>
-
     <div class="container">
       <div class="sidebar-wrapper">
         <div class="sidebar">
@@ -25,7 +23,7 @@
             <nav class="navmenu">
               <a href="nike">NIKE</a>
               <a href="hold-me-down">HOLD ME DOWN</a>
-              <a href="be-the-chnge">BE_THE_CHNGE</a>
+              <a href="be-the-chnge" class="active">BE_THE_CHNGE</a>
               <a href="mary-v-x-chella-man">MARY V x CHELLA MAN</a>
               <a href="ian-hylton">A PORTRAIT OF IAN HYLTON</a>
               <a href="min-liu">MIN LIU</a>
@@ -50,10 +48,36 @@
           </div>
         </div>
       </div>
+
+      <div class="content-wrapper">
+        <p class="row title">
+          BE_THE_CHNGE (60 sec)
+        </p>
+
+        <iframe id="be_the_chnge1" class="row" src="https://player.vimeo.com/video/292491906?color=a3a4a4&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+        <p class="row">
+          This fall 2018 campaign for CHNGE was directed by Niclas Gillis, shot by Lance Kuhns and Gillis, and edited by Parallax.
+        </p>
+
+        <img class="row" src="media/be_the_chnge1.jpeg"  alt="history has its eyes on you">
+
+        <p class="row title no-padding">
+          BE_THE_CHNGE (full)
+        </p>
+
+        <iframe id="nike2" class="row" src="https://player.vimeo.com/video/292492226?color=a3a4a4&title=0&byline=0&portrait=0" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+        <img class="row" src="media/be_the_chnge2.jpeg"  alt="woman power">
+
+        <img class="row" src="media/be_the_chnge3.JPG"  alt="kiss">
+
+        <div class="row last">
+          <a target="_blank" href="https://chnge.com/">chnge.com</a>
+        </div>
+      </div>
     </div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/homepage.js"></script>
     <script src="js/toggleMenu.js"></script>
   </body>
 </html>

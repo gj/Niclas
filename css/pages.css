@@ -121,6 +121,11 @@ a.active {
   font-weight: bold;
 }
 
+img#nike-password-pointer {
+  width: 200px;
+  float: right;
+}
+
 /* /// Media Queries /// */
 
 @media only screen and (max-width: 1300px) {
